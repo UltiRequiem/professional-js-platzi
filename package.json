@@ -1,0 +1,25 @@
+{
+  "name": "professional-javascript-platzi",
+  "version": "1.0.0",
+  "description": "Platzi Course",
+  "main": "",
+  "scripts": {
+    "start": "live-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/UltiRequiem/Professional-JavaScript-Platzi.git"
+  },
+  "keywords": [
+    "Platzi"
+  ],
+  "author": "UltiRequiem",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/UltiRequiem/Professional-JavaScript-Platzi/issues"
+  },
+  "homepage": "https://github.com/UltiRequiem/Professional-JavaScript-Platzi#readme",
+  "devDependencies": {
+    "live-server": "^1.2.1"
+  }
+}
