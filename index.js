@@ -1,9 +1,4 @@
-/**
- * Print a text
- *
- * @author UltiRequiem
- * @param {string} text
- */
-const prueba = async (text) => {
-  console.log(text);
-};
+const video = document.querySelector('video');
+const button = document.querySelector('button');
+
+button.onclick = () => video.play();
