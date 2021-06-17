@@ -88,3 +88,7 @@ Un buen profesional cumple con los siguientes valores:
 La experiencia no es algo que se pueda enseñar,
 tenemos que encontrarla nosotros mismos en el camino a ser profesionales.
 Todo está en nosotros, tenemos que estudiar y practicar mucho.
+
+## Enlaces Utiles
+
+- [Version Escrita del Curso](https://augdiaugus.gitbook.io/recoleccion-de-notas-publicas/escuela-de-javascript/curso-profesional-de-javascript)
