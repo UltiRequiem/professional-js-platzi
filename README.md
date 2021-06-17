@@ -9,6 +9,10 @@
 
 Puedes encontrar alguna de mis notas en [extras/](./extras).
 
+El Repostiorio del proyecto se encuentra aquí: [UltiRequiem/PlatziVideo](https://github.com/UltiRequiem/PlatziVideo)
+
+Puedes ver una demo del proyecto en: https://ultirequiem.github.io/PlatziVideo
+
 El curso se encuentra en: [Platzi](https://platzi.com/profesionaljs)
 
 ### Curso Anterior
