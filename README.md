@@ -5,11 +5,11 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 [![Lines Of Code](https://img.shields.io/tokei/lines/github.com/UltiRequiem/Professional-JavaScript-Platzi?color=blue&label=Total%20Lines)](https://github.com/UltiRequiem/Professional-JavaScript-Platzi)
 
-![Image](./extras/wall.png)
+![Image](./extras/img/wall.png)
 
 Puedes encontrar alguna de mis notas en [extras/](./extras).
 
-El curso se encuentra en: [Platzi](https://platzi.com/clases/javascript-profesional)
+El curso se encuentra en: [Platzi](https://platzi.com/profesionaljs)
 
 ### Curso Anterior
 
