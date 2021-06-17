@@ -20,4 +20,4 @@ class MediaPlayer {
   }
 }
 
-export default MediaPlayer();
+export default MediaPlayer;
