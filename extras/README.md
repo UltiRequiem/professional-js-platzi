@@ -94,3 +94,5 @@ Todo está en nosotros, tenemos que estudiar y practicar mucho.
 - [Version Escrita del Curso](https://augdiaugus.gitbook.io/recoleccion-de-notas-publicas/escuela-de-javascript/curso-profesional-de-javascript)
 - [What the heck is the event loop?](https://youtu.be/8aGhZQkoFbQ)
 - [La pila de Ejecución](https://youtu.be/ygA5U7Wgsg8)
+- [33 JS concepts](https://github.com/leonardomso/33-js-concepts)
+- [Closures](https://youtu.be/JXG_gQ0OF74)
