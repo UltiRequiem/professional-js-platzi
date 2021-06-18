@@ -2,15 +2,16 @@ module.exports = {
   env: {
     browser: true,
     es2021: true,
+    es6: true,
   },
-  ignorePatterns: ['node_modules', 'assets', 'eslint:recommended'],
-  extends: ['airbnb-base', 'prettier'],
+  ignorePatterns: ['node_modules'],
+  extends: ['airbnb-base', 'prettier', 'eslint:recommended'],
   parserOptions: {
-    ecmaVersion: 12,
+    ecmaVersion: 2021,
     sourceType: 'module',
   },
   rules: {
-    'quotes': ['warn', 'single', 'avoid-escape'],
+    quotes: ['warn', 'single', 'avoid-escape'],
     'no-plusplus': 'off',
     'on-var': 'off',
     'max-classes-per-file': 'off',
