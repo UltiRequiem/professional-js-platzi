@@ -1,10 +1,8 @@
-const makeCounter = (count) => {
-  return {
+const makeCounter = (count) => ({
     increase: () => count + 1,
     decrease: () => count - 1,
     getCount: () => count,
-  };
-};
+  });
 
 // Counter
 const c = makeCounter(5);

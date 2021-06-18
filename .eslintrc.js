@@ -10,7 +10,7 @@ module.exports = {
     sourceType: 'module',
   },
   rules: {
-    quotes: ['warn', 'single', 'avoid-escape'],
+    'quotes': ['warn', 'single', 'avoid-escape'],
     'no-plusplus': 'off',
     'on-var': 'off',
     'max-classes-per-file': 'off',

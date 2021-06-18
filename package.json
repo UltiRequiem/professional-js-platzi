@@ -20,6 +20,11 @@
   },
   "homepage": "https://github.com/UltiRequiem/Professional-JavaScript-Platzi#readme",
   "devDependencies": {
-    "live-server": "^1.2.1"
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-prettier": "^3.4.0",
+    "live-server": "^1.2.1",
+    "prettier": "^2.3.1",
+    "prettier-eslint": "^12.0.0"
   }
 }
