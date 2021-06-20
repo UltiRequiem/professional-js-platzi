@@ -96,3 +96,4 @@ Todo está en nosotros, tenemos que estudiar y practicar mucho.
 - [La pila de Ejecución](https://youtu.be/ygA5U7Wgsg8)
 - [33 JS concepts](https://github.com/leonardomso/33-js-concepts)
 - [Closures](https://youtu.be/JXG_gQ0OF74)
+- [You dont know Javascript](https://github.com/getify/You-Dont-Know-JS)
