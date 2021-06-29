@@ -6,7 +6,8 @@ class makeCounter {
   }
 
   get count() {
-    return this.#count;
+    return this.#count
+    // console.log("I can't tell you that!");
   }
 
   increase() {
@@ -18,16 +19,11 @@ class makeCounter {
   }
 }
 
-let counter = new makeCounter(7);
+const myCounter = new makeCounter(7);
 
-console.log('The Count is:', counter.count);
-counter.increase();
-console.log('The Count is:', counter.count);
-counter.decrease();
-counter.decrease();
-counter.decrease();
-counter.decrease();
-console.log('The Count is:', counter.count);
-
-// Error above
-// counter.#count = 0;
+console.log(`The Count is: ${myCounter.count}.`);
+myCounter.increase();
+console.log(`The Count is: ${myCounter.count}.`);
+myCounter.decrease();
+myCounter.decrease();
+console.log(`The Count is: ${myCounter.count}.`);
