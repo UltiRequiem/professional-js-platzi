@@ -4,20 +4,19 @@ const getMovie = async (id) => {
   const response = await fetch(
     `https://api.themoviedb.org/3/movie/${id}?api_key=${API_KEY}`
   );
-  const data = await response.json();
-  return data;
+  return response.json();
 };
 
 const getPopularMovies = async () => {
-  const response = await fetch(`https://api.themoviedb.org/3/discover/movie?sort_by=popularity.desc&api_key=${API_KEY}`);
-  const data = await response.json();
-  return data.results;
+  const response = await fetch(
+    `https://api.themoviedb.org/3/discover/movie?sort_by=popularity.desc&api_key=${API_KEY}`
+  );
+  return (await response.json()).results;
 };
 
 const getTopMoviesIds = async (n = 3) => {
   const popularMovies = await getPopularMovies();
-  const ids = popularMovies.slice(0, n).map((movie) => movie.id);
-  return ids;
+  return popularMovies.slice(0, n).map((movie) => movie.id);
 };
 
 const renderMovies = (movies) => {
@@ -40,7 +39,9 @@ const getTopMoviesInSequence = async () => {
   const ids = await getTopMoviesIds();
   const movies = [];
 
+  // eslint-disable-next-line no-restricted-syntax
   for (const id of ids) {
+    // eslint-disable-next-line no-await-in-loop
     const movie = await getMovie(id);
     movies.push(movie);
   }
@@ -52,17 +53,14 @@ const getTopMoviesInParallel = async () => {
   const ids = await getTopMoviesIds();
   const moviePromises = ids.map((id) => getMovie(id));
 
-  const movies = await Promise.all(moviePromises);
-
-  return movies;
+  return Promise.all(moviePromises);
 };
 
 const getFastestTopMovie = async () => {
   const ids = await getTopMoviesIds();
   const moviePromises = ids.map((id) => getMovie(id));
 
-  const movie = await Promise.race(moviePromises);
-  return movie;
+  return Promise.race(moviePromises);
 };
 
 document.getElementById('sequence').onclick = async () => {
