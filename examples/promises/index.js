@@ -51,16 +51,12 @@ const getTopMoviesInSequence = async () => {
 
 const getTopMoviesInParallel = async () => {
   const ids = await getTopMoviesIds();
-  const moviePromises = ids.map((id) => getMovie(id));
-
-  return Promise.all(moviePromises);
+  return Promise.all(ids.map((id) => getMovie(id)));
 };
 
 const getFastestTopMovie = async () => {
   const ids = await getTopMoviesIds();
-  const moviePromises = ids.map((id) => getMovie(id));
-
-  return Promise.race(moviePromises);
+  return Promise.race(ids.map((id) => getMovie(id)));
 };
 
 document.getElementById('sequence').onclick = async () => {
