@@ -4,7 +4,11 @@
   "description": "Platzi Course",
   "main": "",
   "scripts": {
-    "start": "live-server"
+    "start": "live-server",
+    "lint-ts": "eslint . --ext .ts",
+    "lint-js": "eslint . --ext .js",
+    "lint-ts-and-fix": "eslint . --ext .ts --fix",
+    "lint-js-and-fix": "eslint . --ext .js --fix"
   },
   "repository": {
     "type": "git",
@@ -20,6 +24,8 @@
   },
   "homepage": "https://github.com/UltiRequiem/Professional-JavaScript-Platzi#readme",
   "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^4.28.1",
+    "@typescript-eslint/parser": "^4.28.1",
     "eslint": "^7.29.0",
     "eslint-config-airbnb-base": "^14.2.1",
     "eslint-config-prettier": "^8.3.0",

@@ -1,5 +1,5 @@
 // Scope Global
-var message = '¡Hello, Platzi!';
+let message = '¡Hello, Platzi!';
 
 console.log(message);
 

@@ -2,8 +2,8 @@ function add(a: number,b: number): number {
   return a+b;
 }
 
-function createAdder(a: number = 5) {
-  return function (b: number = 4) {
+function createAdder(a = 5) {
+  return function (b = 4) {
     return b + a
   }
 }
