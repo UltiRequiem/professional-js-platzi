@@ -1,5 +1,5 @@
 const counter = {
-  count: 3,
-};
+  count: 3
+}
 
-console.log(counter.count);
+console.log(counter.count)

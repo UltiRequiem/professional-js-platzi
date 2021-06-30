@@ -1,8 +1,8 @@
 class makeCounter {
-  #count;
+  #count
 
   constructor(n) {
-    this.#count = n;
+    this.#count = n
   }
 
   get count() {
@@ -11,19 +11,19 @@ class makeCounter {
   }
 
   increase() {
-    this.#count += 1;
+    this.#count += 1
   }
 
   decrease() {
-    this.#count -= 1;
+    this.#count -= 1
   }
 }
 
-const myCounter = new makeCounter(7);
+const myCounter = new makeCounter(7)
 
-console.log(`The Count is: ${myCounter.count}.`);
-myCounter.increase();
-console.log(`The Count is: ${myCounter.count}.`);
-myCounter.decrease();
-myCounter.decrease();
-console.log(`The Count is: ${myCounter.count}.`);
+console.log(`The Count is: ${myCounter.count}.`)
+myCounter.increase()
+console.log(`The Count is: ${myCounter.count}.`)
+myCounter.decrease()
+myCounter.decrease()
+console.log(`The Count is: ${myCounter.count}.`)

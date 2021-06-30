@@ -1,16 +1,18 @@
-const asynPrint = (isError) => new Promise((resolve, reject) => {
+const asynPrint = (isError) => {
+  new Promise((resolve, reject) => {
     setTimeout(() => {
       if (isError) {
-        reject(new Error('Error'));
+        reject(new Error('Error'))
       } else {
-        resolve('Hello');
+        resolve('Hello')
       }
-    }, 1000);
-  });
+    }, 1000)
+  })
+}
 
-let greeting;
+let greeting
 // eslint-disable-next-line no-return-assign
-const a = asynPrint().then((x) => (greeting = x));
-console.log(a);
-setTimeout(() => console.log(greeting), 1000);
-console.log(greeting);
+const a = asynPrint().then((x) => (greeting = x))
+console.log(a)
+setTimeout(() => console.log(greeting), 1000)
+console.log(greeting)
