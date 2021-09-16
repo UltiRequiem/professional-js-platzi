@@ -33,7 +33,7 @@
     "eslint-plugin-prettier": "^4.0.0",
     "live-server": "^1.1.0",
     "parcel-bundler": "^1.12.5",
-    "prettier": "^2.4.0",
+    "prettier": "^2.4.1",
     "prettier-eslint": "^13.0.0",
     "prettier-plugin-jsdoc": "^0.3.24"
   }
