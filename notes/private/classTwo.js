@@ -1,11 +1,11 @@
 class Message {
-  #message = 'Howdy'
+  #message = "Howdy";
 
   greet() {
-    console.log(this.#message)
+    console.log(this.#message);
   }
 }
 
-const greeting = new Message()
+const greeting = new Message();
 
-greeting.greet()
+greeting.greet();

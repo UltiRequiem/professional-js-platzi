@@ -1,4 +1,4 @@
 // IIFE
-;(() => {
-  console.log('Immediately-invoked function expressions.')
-})()
+(() => {
+  console.log("Immediately-invoked function expressions.");
+})();

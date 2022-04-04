@@ -1,12 +1,12 @@
-const color = 'blue'
-console.log(color)
-;(() => {
+const color = "blue";
+console.log(color);
+(() => {
   // eslint-disable-next-line no-shadow
-  const color = 'green'
+  const color = "green";
 
   function printColor() {
-    console.log(color)
+    console.log(color);
   }
 
-  printColor()
-})()
+  printColor();
+})();

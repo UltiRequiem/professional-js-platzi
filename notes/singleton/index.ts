@@ -1,7 +1,7 @@
-import Singleton from './Singleton'
+import Singleton from "./Singleton";
 
-const a = Singleton.getInstance()
-const b = Singleton.getInstance()
+const a = Singleton.getInstance();
+const b = Singleton.getInstance();
 
 // true
-console.log(a === b)
+console.log(a === b);

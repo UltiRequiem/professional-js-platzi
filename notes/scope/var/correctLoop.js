@@ -3,11 +3,11 @@ function printNumbers() {
     // eslint-disable-next-line no-inner-declarations
     function eventuallyPrintNumbers(n) {
       setTimeout(() => {
-        console.log(n)
-      }, 100)
+        console.log(n);
+      }, 100);
     }
-    eventuallyPrintNumbers(i)
+    eventuallyPrintNumbers(i);
   }
 }
 
-printNumbers()
+printNumbers();

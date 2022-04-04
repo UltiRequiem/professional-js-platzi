@@ -9,7 +9,8 @@
 
 Puedes encontrar alguna de mis notas en [extras/](./extras).
 
-El Repostiorio del proyecto se encuentra aquí: [UltiRequiem/PlatziVideo](https://github.com/UltiRequiem/PlatziVideo)
+El Repostiorio del proyecto se encuentra aquí:
+[UltiRequiem/PlatziVideo](https://github.com/UltiRequiem/PlatziVideo)
 
 Puedes ver una demo del proyecto en: https://ultirequiem.github.io/UltiVideo.js/
 
