@@ -5656,10 +5656,10 @@ prelude-ls@~1.1.2:
   resolved "https://registry.yarnpkg.com/prelude-ls/-/prelude-ls-1.1.2.tgz#21932a549f5e52ffd9a827f570e04be62a97da54"
   integrity sha1-IZMqVJ9eUv/ZqCf1cOBL5iqX2lQ=
 
-prettier-eslint@^14.0.1:
-  version "14.0.1"
-  resolved "https://registry.yarnpkg.com/prettier-eslint/-/prettier-eslint-14.0.1.tgz#982ebc5a314bcf63d068e81ce1d00d6acc33c5ec"
-  integrity sha512-crsXH/dZ2uWxUZI43md0euicqGAJcojUamdMHJolotF/+BV8g2ULKpisiROGCvQXWtjNF869qFElcqnvO6fZdQ==
+prettier-eslint@^14.0.2:
+  version "14.0.2"
+  resolved "https://registry.yarnpkg.com/prettier-eslint/-/prettier-eslint-14.0.2.tgz#22450cf62dfed4536100c2d31e883de4c3cc6d13"
+  integrity sha512-bU0fKT5xNLk/WQQkNeVApe5OU8I834MzP5AcTpGPOHfjffU3HmRXW8dsD35dUhPTl3/qkgrTPTnHF90YZIuKGw==
   dependencies:
     "@typescript-eslint/parser" "^5.10.0"
     common-tags "^1.4.0"
